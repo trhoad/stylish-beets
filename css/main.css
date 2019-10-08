@@ -27,6 +27,7 @@ a {
   color: #8f2440;
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
+  list-style-type: none;
 }
 
 a:hover {
@@ -60,7 +61,7 @@ dt {
   font-weight: bold;
 }
 
-ol li {
+.verieties {
   list-style-type: lower-greek;
 }
 
