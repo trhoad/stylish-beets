@@ -2,6 +2,12 @@ body {
   background-color: #c9b5ab;
 }
 
+h1, h2{
+  font-size: 1.5rem;
+  color: #3f1622;
+  font-family: 'PT Sans', sans-serif;
+}
+
 figcaption {
   font-size: 1.125;
   font-style: italic;
@@ -9,5 +15,6 @@ figcaption {
 }
 
 nav {
-  color: #3f1622;
+  color: #8f2440;
+  font-family: 'PT Sans', sans-serif;
 }
