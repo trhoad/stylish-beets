@@ -1,26 +1,36 @@
-body {
+html, body {
   background-color: #c9b5ab;
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
+  font-weight: normal;
 }
 
-h1, h2{
+img {
+  width: 100%;
+}
+
+h1, h2 {
   font-size: 1.5rem;
   color: #3f1622;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
-nav {
+.navigation {
+  list-style-type: none;
   color: #8f2440;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
 }
 
-nav ol {
-  list-style-type: none;
-}
-
-nav a {
+a {
   color: #8f2440;
   text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
 
 figcaption {
   font-size: 1.125rem;
@@ -30,5 +40,11 @@ figcaption {
 
 blockquote {
   text-align: center;
-  font-size: 1.5rem
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.harvest {
+  font-weight: bold;
+  font-size: 1.125rem;
 }
