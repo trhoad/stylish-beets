@@ -7,24 +7,26 @@ html, body {
 
 img {
   width: 100%;
+  align-items: center;
 }
 
 h1, h2 {
   font-size: 1.5rem;
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
 }
 
-.navigation {
+nav ol {
   list-style-type: none;
-  color: #8f2440;
-  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
+  font-weight: bold;
 }
 
 a {
   color: #8f2440;
   text-decoration: none;
+  font-family: "PT Sans", sans-serif;
 }
 
 a:hover {
@@ -44,7 +46,16 @@ blockquote {
   font-style: italic;
 }
 
+cite {
+  font-size: .8rem;
+  font-weight: lighter;
+}
+
 .harvest {
   font-weight: bold;
   font-size: 1.125rem;
+}
+
+dt {
+  font-weight: bold;
 }
