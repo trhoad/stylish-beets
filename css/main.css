@@ -59,3 +59,11 @@ cite {
 dt {
   font-weight: bold;
 }
+
+ol li {
+  list-style-type: lower-greek;
+}
+
+ul li {
+  list-style-type: circle;
+}
